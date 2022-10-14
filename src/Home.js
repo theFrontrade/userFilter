@@ -3,6 +3,7 @@ import { useState } from "react";
 import Header from "./Components/header";
 import Main from "./Components/main";
 import results from "./Components/mydata.json";
+import Footer from "./Components/Footer"
 const Home = () => {
   const [myData, setMyData] = useState([]);
   const [input, setInput] = useState("");
@@ -29,6 +30,7 @@ const Home = () => {
       <div>
         <Header handleSearch={handleSearch} handleClick={handleClick} />
         <Main loading={loading} input={input} myData={myData} />
+        <Footer />
       </div>
     </div>
   );

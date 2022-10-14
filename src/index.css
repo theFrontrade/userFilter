@@ -193,6 +193,10 @@ body {
   text-align: end;
   float: left;
 }
+.footer-sub-wrap{
+  width: 100%;
+  text-align: center;
+}
 @media only screen and (max-width : 1000px) {
   .main-sub-wrap{
     justify-content: space-evenly;
