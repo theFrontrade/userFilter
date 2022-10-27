@@ -209,6 +209,10 @@ body {
   .header-search-wrap input{
     width: 100%;
   }
+
+  .main-sub-wrap{
+    width: 95%;
+  }
   .profile-div{
     width: 95%;
   }
