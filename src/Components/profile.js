@@ -10,7 +10,7 @@ const Profile = () => {
   useEffect(() => {
     setMyData(results.results);
   }, []);
- console.log(myData)
+
 
   return (
     <div>
@@ -22,7 +22,7 @@ const Profile = () => {
               return item;
             }
           })
-          .map((item) => (
+          .map((item) => 
             <div key={item.login.uuid} className="profile-div">
               <div className="profile-img-div">
                 <img src={item.picture.large} alt="sam" className="cover-img" />
@@ -68,7 +68,7 @@ const Profile = () => {
                 </div>
               </div>
             </div>
-          ))}
+          )}
       </div>
       <Footer />
     </div>
